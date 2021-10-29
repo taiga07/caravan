@@ -226,21 +226,44 @@ footer {
   color: #fff;
 }
 
-.social i {
-  color: black;
-}
-@media screen and (max-width: 1024px) {
-  .social i {
-    color: green;
-  }
-}
-@media screen and (max-width: 768px) {
-  .social i {
-    color: red;
-  }
-}
 @media screen and (max-width: 425px) {
-  .social i {
-    color: blue;
+  header {
+    width: 100%;
+  }
+  .nav-list {
+    width: 100%;
+  }
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+    /* 追加 */
+  }
+  .main-visual-content {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .blog {
+    width: 100%;
+  }
+  .blog-box {
+    width: 100%;
+  }
+
+  .blog-image {
+    width: 49%;
+  }
+  .blog-text {
+    width: 49%;
+  }
+  .sidebar {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .instagram-box {
+    width: 50%;
+    padding-top: 50%;
   }
 }
